@@ -9,7 +9,12 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ExampleSubsystem extends SubsystemBase {
   /** Creates a new ExampleSubsystem. */
-  public ExampleSubsystem() {}
+
+  double someNumber;
+
+  public ExampleSubsystem() {
+    double someOthernumber;
+  }
 
   /**
    * Example command factory method.
